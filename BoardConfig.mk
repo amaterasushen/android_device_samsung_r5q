@@ -58,7 +58,7 @@ QCOM_BOARD_PLATFORMS += msmnile
 TARGET_PREBUILT_KERNEL := device/samsung/r5q/prebuilt/Image.gz-dtb
 TARGET_PREBUILT_DTB := device/samsung/r5q/prebuilt/dtb
 BOARD_PREBUILT_DTBOIMAGE := device/samsung/r5q/prebuilt/recoverydtbo
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+#BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_KERNEL_ARCH := arm64
 
